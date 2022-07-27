@@ -10,17 +10,10 @@
 #define D4 4
 #define D5 5
 
-//const char *IP                    = "172.20.10.3";
-const char *URL                     = "http://192.168.1.103/SmartBasket/WebAPI/cart.php";
+const char *URL                     = "http://hostname/SmartBasket/WebAPI/cart.php";
 
-//const char *_SSID                    = "SBTI 4ir Space";           // Wifi Network Name
-//const char *_PASSWORD                = "SbtiInnovation"; // Wifi Network Key
-
-const char *_SSID                    = "TP-Link_0B2C";           // Wifi Network Name
-const char *_PASSWORD                = "21159909"; // Wifi Network Key
-
-//const char *_SSID                    = "iPhone SE";           // Wifi Network Name
-//const char *_PASSWORD                = "hEYN^D7d_#zxfsk"; // Wifi Network Key
+//const char *_SSID                    = "";       // Wifi Network Name
+//const char *_PASSWORD                = "";       // Wifi Network Key
 
 String UID = "";
 
