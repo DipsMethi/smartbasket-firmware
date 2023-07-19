@@ -74,7 +74,7 @@ void LOGIN_HANDLER()
         {
             HTTPClient http;
             String postData = "method=GET_USER";
-            http.begin("http://192.168.27.217/SmartBasket/WebAPI/user.php");
+            http.begin("http:///*IP_ADDRESS_HERE*//SmartBasket/WebAPI/user.php");
             http.addHeader("Content-Type", "application/x-www-form-urlencoded");
         
             int httpCode = http.POST(postData);
@@ -115,7 +115,7 @@ void CHECKOUT_HANDLER()
 {
                 HTTPClient http;
                 String postData = "method=SCAN_CARD";
-                http.begin("http://192.168.1.103/SmartBasket/WebAPI/cart.php");
+                http.begin("http:///*IP_ADDRESS_HERE*//SmartBasket/WebAPI/cart.php");
                 http.addHeader("Content-Type", "application/x-www-form-urlencoded");
         
                 int httpCode = http.POST(postData);
